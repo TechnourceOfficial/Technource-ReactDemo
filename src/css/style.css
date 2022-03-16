@@ -1,0 +1,286 @@
+@font-face {
+  font-family: 'FuturaPT-Bold';
+  src: local('FuturaPT-Bold'), url(../webfonts/FuturaPT-Bold.woff) format('woff');
+}
+@font-face {
+  font-family: 'FuturaPT-Book';
+  src: local('FuturaPT-Book'), url(../webfonts/FuturaPT-Book.woff) format('woff');
+}
+@font-face {
+  font-family: 'FuturaPT-Demi';
+  src: local('FuturaPT-Demi'), url(../webfonts/FuturaPT-Demi.woff) format('woff');
+}
+@font-face {
+  font-family: 'FuturaPT-Light';
+  src: local('FuturaPT-Light'), url(../webfonts/FuturaPT-Light.woff) format('woff');
+}
+@font-face {
+  font-family: 'FuturaPT-Medium';
+  src: local('FuturaPT-Medium'), url(../webfonts/FuturaPT-Medium.woff) format('woff');
+}
+img.technource-top-logo {
+  height: 35px;
+  width: 249px;
+}
+.navbar {
+  background: #fff !important;
+}
+.navbar .nav-link {
+  color: #000000 !important;
+  padding: 13px 15px!important;
+  white-space: nowrap;
+  font-size: 17px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-top: 19px;
+}
+.show{
+  display: block;
+}
+.dropdown a {
+  padding-left: 0px;
+  font-size: 17px;
+  color: black;
+  padding-top: 0px;
+  width: auto;
+  text-decoration: none !important;
+}
+ul.list-unstyled li {
+  display: flex;
+  margin: 10px;
+}
+.dropdown-content {
+  min-width: max-content;
+  background-color: white;
+  overflow: hidden;
+}
+.home_banner {
+  padding: 100px 30px 70px !important;
+}
+.dropdown-menu {
+  min-width: max-content !important;
+}
+.menutitle ul li {
+  list-style: none !important;
+}
+.menutitle ul {
+  padding: 0px !important;
+}
+.home_banner:before {
+  content: '';
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+  background: #22165a;
+}
+.align-items-center {
+  align-items: center !important;
+}
+.mainsubtitle {
+  line-height: 39px;
+}
+.home_banner .sub_title {
+  font-size: 56px !important;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.home_banner h3 {
+  text-transform: uppercase;
+  font-size: 28px;
+}
+.home_banner p {
+  font-size: 20px;
+}
+.home_banner strong {
+  color: #EFB32C !important;
+  transition: .5s !important;
+}
+.readmore_btn, .theme_btn {
+  padding: 7px 11px 4px;
+  background: #efb31b;
+  color: #fff;
+  text-transform: uppercase;
+  display: inline-block;
+  border-radius: 0;
+}
+img.technource-top-logo {
+  height: 35px;
+  width: 249px;
+}
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.mainsubtitle b {
+  font-size: 28px;
+}
+.fa-arrow {
+  margin-left: 5px;
+}
+.list-unstyled li a:hover {
+  color: #f0b31b!important;
+  transition: .6s all ease;
+}
+.list-unstyled li a:after {
+  display: block;
+  content: '';
+  border-bottom: solid 3px #f0b31b;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+.list-unstyled li a:hover:after {
+  transform: scaleX(1);
+  transition: .6s all ease;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+  background-color: transparent;
+}
+.section_title {
+  font-size: 28px;
+  font-family: 'FuturaPT-Bold' !important;
+  line-height: 40px;
+}
+.section_title:after {
+  content: '';
+  border-bottom: 3px solid #EFB32D;
+  width: 120px;
+  display: block;
+}
+.home strong {
+  color: #EFB32C;
+  transition: .5s;
+}
+.talk_expert p {
+  text-align: justify;
+}
+a {
+  outline: none;
+  text-decoration: none !important;
+  transition: .6s all ease !important;
+}
+.css-sprite-menuic_hire_Android {
+  background: url(https://technource.s3.us-west-1.amazonaws.com/assets/images/css-sprite-combined-menu.png) -225px 0;
+  width: 25px;
+  height: 27px;
+  display: inline-block;
+  margin-top: 4px;
+}
+.css-sprite-menuic_hire_Angular {
+  background: url(https://technource.s3.us-west-1.amazonaws.com/assets/images/css-sprite-combined-menu.png) -250px 0;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+}
+.css-sprite-menuic_hire_iOS {
+  background: url(https://technource.s3.us-west-1.amazonaws.com/assets/images/css-sprite-combined-menu.png) -275px 0;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+}
+.css-sprite-menuic_hire_Magento {
+  background: url(https://technource.s3.us-west-1.amazonaws.com/assets/images/css-sprite-combined-menu.png) -300px 0;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+}
+.css-sprite-menuic_hire_NodeJS {
+  background: url(https://technource.s3.us-west-1.amazonaws.com/assets/images/css-sprite-combined-menu.png) -325px 0;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+}
+.css-sprite-menuic_hire_PHP {
+  background: url(https://technource.s3.us-west-1.amazonaws.com/assets/images/css-sprite-combined-menu.png) -350px 0;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+}
+.css-sprite-menuic_hire_React {
+  background: url(https://technource.s3.us-west-1.amazonaws.com/assets/images/css-sprite-combined-menu.png) -375px 0;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+}
+.css-sprite-menuic_hire_SEO {
+  background: url(https://technource.s3.us-west-1.amazonaws.com/assets/images/css-sprite-combined-menu.png) -400px 0;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+}
+.css-sprite-menuic_hire_Shopify {
+  background: url(https://technource.s3.us-west-1.amazonaws.com/assets/images/css-sprite-combined-menu.png) -425px 0;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+}
+.css-sprite-menuic_hire_Wordpress {
+  background: url(https://technource.s3.us-west-1.amazonaws.com/assets/images/css-sprite-combined-menu.png) -450px 0;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+}
+p {
+  font-family: 'FuturaPT-Book' !important;
+}
+h1{
+  font-family: 'FuturaPT-Bold' !important;
+}
+a{
+  font-family: 'FuturaPT-Book' !important;
+}
+@media only screen and (max-width: 991px) {
+  .home_banner .sub_title {
+    font-size: 45px !important;
+    line-height: 45px !important;
+}
+  .home_banner {
+      padding: 80px 0 60px !important;
+ }
+  .dropdown-content {
+      margin-top: 0px;
+ }
+}
+@media only screen and (max-width: 767px) {
+  .home_banner .sub_title {
+      font-size: 35px !important;
+      font-weight: 500 !important;
+ }
+ ul.list-unstyled {
+    margin-bottom: 0px;
+  }
+  ul.list-unstyled li {
+    margin-bottom: 0px;
+  }
+  .header {
+    padding: 6px 0px 6px 0px;
+  }
+  .dropdown-content {
+      min-width: auto !important;
+      overflow: hidden !important;
+ }
+  img.technource-top-logo {
+      height: 26px;
+      width: 150px;
+ }
+ .home_banner .sub_title {
+    font-size: 35px;
+  }
+  .dropdown-content {
+      margin-top: 0px;
+ }
+}
+@media only screen and (max-width: 575) {
+  .home_banner {
+      padding: 60px 0 40px !important;
+      font-weight: 500 !important;
+ }
+}
